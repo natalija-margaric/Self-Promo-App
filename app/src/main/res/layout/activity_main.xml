@@ -18,7 +18,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edit_text_contact_name"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -31,7 +32,8 @@
                 android:id="@+id/edit_text_contact_number"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp" />
+                android:layout_marginTop="10dp"
+                android:inputType="phone" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -44,7 +46,8 @@
                 android:id="@+id/edit_text_display_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp" />
+                android:layout_marginTop="10dp"
+                android:inputType="textCapWords" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -79,7 +82,8 @@
                 android:id="@+id/edit_text_start_date"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp" />
+                android:layout_marginTop="10dp"
+                android:inputType="date" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
