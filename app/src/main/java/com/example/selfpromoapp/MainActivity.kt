@@ -28,9 +28,14 @@ class MainActivity : AppCompatActivity() {
         val contactNumber = edit_text_contact_number.text.toString()
         val myDisplayName = edit_text_display_name.text.toString()
         val includeJunior = check_box_include_junior.isChecked
-        val jobTitle = spinner_job_title.selectedItem.toString()
+        val jobTitle = spinner_job_title.selectedItem?.toString()
         val immediateStart = check_box_immediate_start.isChecked
         val startDate = edit_text_start_date.text.toString()
+
+        val testString = "Contact Name: $contactName, Contact Number: $contactNumber, My Display Name: $myDisplayName, " +
+                "Include Junior: $includeJunior, Job Title: $jobTitle, Immediate Start: $immediateStart, Start Date: $startDate"
+
+        Toast.makeText(this, testString, Toast.LENGTH_LONG).show()
     }
 }
 
