@@ -11,7 +11,9 @@
         android:theme="@style/Theme.SelfPromoApp">
         <activity
             android:name=".PreviewActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Message Preview"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
